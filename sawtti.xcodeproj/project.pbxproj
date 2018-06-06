@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0332699BC833223FF001A8B5 /* Pods_sawtti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036374BDDA31DA5D09D16164 /* Pods_sawtti.framework */; };
+		14056B21204EB01C00F5E1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14056B20204EB01C00F5E1CC /* Assets.xcassets */; };
+		14056B22205000A900F5E1CC /* fingerprints.realm in Resources */ = {isa = PBXBuildFile; fileRef = 14F74D28204E709600F8DD2A /* fingerprints.realm */; };
+		14811EF920C5A4650047EB81 /* tone400.wav in Resources */ = {isa = PBXBuildFile; fileRef = 14811EF820C5A4650047EB81 /* tone400.wav */; };
 		14F74D0B204E6F5900F8DD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D0A204E6F5900F8DD2A /* AppDelegate.swift */; };
 		14F74D0D204E6F5900F8DD2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D0C204E6F5900F8DD2A /* ViewController.swift */; };
 		14F74D10204E6F5900F8DD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F74D0E204E6F5900F8DD2A /* Main.storyboard */; };
-		14F74D12204E6F5900F8DD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F74D11204E6F5900F8DD2A /* Assets.xcassets */; };
 		14F74D15204E6F5900F8DD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F74D13204E6F5900F8DD2A /* LaunchScreen.storyboard */; };
+		14F74D1F204E6F9200F8DD2A /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D1E204E6F9200F8DD2A /* RealmService.swift */; };
+		14F74D21204E6FA700F8DD2A /* RealmModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D20204E6FA700F8DD2A /* RealmModels.swift */; };
+		14F74D23204E6FF900F8DD2A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D22204E6FF900F8DD2A /* ViewModel.swift */; };
+		14F74D25204E703A00F8DD2A /* FPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D24204E703A00F8DD2A /* FPModel.swift */; };
+		14F74D27204E706500F8DD2A /* CoolBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F74D26204E706500F8DD2A /* CoolBtnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		036374BDDA31DA5D09D16164 /* Pods_sawtti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sawtti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4285B947DFFEC929EFEB3F /* Pods-sawtti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sawtti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sawtti/Pods-sawtti.debug.xcconfig"; sourceTree = "<group>"; };
+		14056B20204EB01C00F5E1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14811EF820C5A4650047EB81 /* tone400.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tone400.wav; path = ../../../../Desktop/tone400.wav; sourceTree = "<group>"; };
 		14F74D07204E6F5900F8DD2A /* sawtti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sawtti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F74D0A204E6F5900F8DD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F74D0C204E6F5900F8DD2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14F74D0F204E6F5900F8DD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		14F74D11204E6F5900F8DD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F74D14204E6F5900F8DD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F74D16204E6F5900F8DD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F74D1E204E6F9200F8DD2A /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		14F74D20204E6FA700F8DD2A /* RealmModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModels.swift; sourceTree = "<group>"; };
+		14F74D22204E6FF900F8DD2A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		14F74D24204E703A00F8DD2A /* FPModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPModel.swift; sourceTree = "<group>"; };
+		14F74D26204E706500F8DD2A /* CoolBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBtnView.swift; sourceTree = "<group>"; };
+		14F74D28204E709600F8DD2A /* fingerprints.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = fingerprints.realm; sourceTree = "<group>"; };
+		43A53DE8E5C6D8AA9CED9EC6 /* Pods-sawtti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sawtti.release.xcconfig"; path = "Pods/Target Support Files/Pods-sawtti/Pods-sawtti.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0332699BC833223FF001A8B5 /* Pods_sawtti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0174054026150AF42AC960BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B4285B947DFFEC929EFEB3F /* Pods-sawtti.debug.xcconfig */,
+				43A53DE8E5C6D8AA9CED9EC6 /* Pods-sawtti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		14F74CFE204E6F5900F8DD2A = {
 			isa = PBXGroup;
 			children = (
 				14F74D09204E6F5900F8DD2A /* sawtti */,
 				14F74D08204E6F5900F8DD2A /* Products */,
+				0174054026150AF42AC960BA /* Pods */,
+				B8A137116C70AC720296477C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,45 @@
 		14F74D09204E6F5900F8DD2A /* sawtti */ = {
 			isa = PBXGroup;
 			children = (
+				14056B20204EB01C00F5E1CC /* Assets.xcassets */,
+				14F74D1D204E6F7B00F8DD2A /* audio */,
+				14F74D1C204E6F7000F8DD2A /* realm */,
 				14F74D0A204E6F5900F8DD2A /* AppDelegate.swift */,
 				14F74D0C204E6F5900F8DD2A /* ViewController.swift */,
 				14F74D0E204E6F5900F8DD2A /* Main.storyboard */,
-				14F74D11204E6F5900F8DD2A /* Assets.xcassets */,
 				14F74D13204E6F5900F8DD2A /* LaunchScreen.storyboard */,
 				14F74D16204E6F5900F8DD2A /* Info.plist */,
+				14F74D24204E703A00F8DD2A /* FPModel.swift */,
+				14F74D22204E6FF900F8DD2A /* ViewModel.swift */,
+				14F74D26204E706500F8DD2A /* CoolBtnView.swift */,
 			);
 			path = sawtti;
+			sourceTree = "<group>";
+		};
+		14F74D1C204E6F7000F8DD2A /* realm */ = {
+			isa = PBXGroup;
+			children = (
+				14F74D28204E709600F8DD2A /* fingerprints.realm */,
+				14F74D1E204E6F9200F8DD2A /* RealmService.swift */,
+				14F74D20204E6FA700F8DD2A /* RealmModels.swift */,
+			);
+			path = realm;
+			sourceTree = "<group>";
+		};
+		14F74D1D204E6F7B00F8DD2A /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				14811EF820C5A4650047EB81 /* tone400.wav */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		B8A137116C70AC720296477C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				036374BDDA31DA5D09D16164 /* Pods_sawtti.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F74D19204E6F5900F8DD2A /* Build configuration list for PBXNativeTarget "sawtti" */;
 			buildPhases = (
+				4B3DA70370E9CE3BD95DCE46 /* [CP] Check Pods Manifest.lock */,
 				14F74D03204E6F5900F8DD2A /* Sources */,
 				14F74D04204E6F5900F8DD2A /* Frameworks */,
 				14F74D05204E6F5900F8DD2A /* Resources */,
+				F3039D73192BC28EB83E76C4 /* [CP] Embed Pods Frameworks */,
+				30B37A1B07B32871EC4FB80F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +187,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14811EF920C5A4650047EB81 /* tone400.wav in Resources */,
+				14056B22205000A900F5E1CC /* fingerprints.realm in Resources */,
 				14F74D15204E6F5900F8DD2A /* LaunchScreen.storyboard in Resources */,
-				14F74D12204E6F5900F8DD2A /* Assets.xcassets in Resources */,
+				14056B21204EB01C00F5E1CC /* Assets.xcassets in Resources */,
 				14F74D10204E6F5900F8DD2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30B37A1B07B32871EC4FB80F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sawtti/Pods-sawtti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3DA70370E9CE3BD95DCE46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sawtti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3039D73192BC28EB83E76C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sawtti/Pods-sawtti-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sawtti/Pods-sawtti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14F74D03204E6F5900F8DD2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F74D23204E6FF900F8DD2A /* ViewModel.swift in Sources */,
 				14F74D0D204E6F5900F8DD2A /* ViewController.swift in Sources */,
+				14F74D27204E706500F8DD2A /* CoolBtnView.swift in Sources */,
+				14F74D21204E6FA700F8DD2A /* RealmModels.swift in Sources */,
+				14F74D25204E703A00F8DD2A /* FPModel.swift in Sources */,
+				14F74D1F204E6F9200F8DD2A /* RealmService.swift in Sources */,
 				14F74D0B204E6F5900F8DD2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +403,7 @@
 		};
 		14F74D1A204E6F5900F8DD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4285B947DFFEC929EFEB3F /* Pods-sawtti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +419,7 @@
 		};
 		14F74D1B204E6F5900F8DD2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A53DE8E5C6D8AA9CED9EC6 /* Pods-sawtti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
