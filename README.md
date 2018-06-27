@@ -11,7 +11,5 @@ released under MIT license
 
 <img src="https://github.com/nour7/Sawtti/blob/master/sawtti_gif.gif" width="350">
 
-![image](sawtti_gif.gif)
-
 
  
