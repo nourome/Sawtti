@@ -7,5 +7,9 @@ the hashing algorithm. App can help anyone who wants to practice DSP on iOS usin
 
 To find out how the audio fingerprinting works, check out the project ![presentation](sawtti_presentation.pdf)
 
+released under MIT license
+
 ![image](sawtti_gif.gif)
-released under MIT license 
+
+
+ 
